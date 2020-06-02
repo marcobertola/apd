@@ -1,2 +1,2 @@
-# Audio Plugin Development Course
+# Audio Plugin Development - Course Repository
 University of Rome Tor Vergata
