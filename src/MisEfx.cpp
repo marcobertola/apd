@@ -1,7 +1,8 @@
 //-------------------------------------------------------------------------------------------------------
-// VST Plug-Ins SDK
-// Version 2.4		$Date: 2006/11/13 09:08:27 $
-// 2006, Steinberg Media Technologies, All Rights Reserved
+//  MisEfx.cpp
+//
+//  Created by Marco Bertola on 02/06/2020.
+//
 //-------------------------------------------------------------------------------------------------------
 
 #include "MisEfx.h"
@@ -35,7 +36,6 @@ void MisEfx::processReplacing(float** inputs, float** outputs, VstInt32 sampleFr
     float *outR = outputs[1]; // buffer output right
     
 }
-
 
 //-------------------------------------------------------------------------------------------------------
 MisEfx::~MisEfx()
