@@ -1,2 +1,2 @@
-# apd
-Audio Plugin Development Course - University of Rome Tor Vergata
+# Audio Plugin Development Course
+University of Rome Tor Vergata
