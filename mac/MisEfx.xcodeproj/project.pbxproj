@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		8D01CCD20486CAD60068D4B7 /* mis_plungin.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mis_plungin.vst; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D01CCD20486CAD60068D4B7 /* Mis-Efx.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mis-Efx.vst"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC029D6B2486DA3D001964D9 /* MisEfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MisEfx.cpp; path = ../src/MisEfx.cpp; sourceTree = "<group>"; };
 		DC029D6C2486DA3D001964D9 /* MisEfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MisEfx.h; path = ../src/MisEfx.h; sourceTree = "<group>"; };
 		DC71300722022E0D0021F163 /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audioeffect.h; path = ../vstsdk2.4/public.sdk/source/vst2.x/audioeffect.h; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		19C28FB4FE9D528D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D01CCD20486CAD60068D4B7 /* mis_plungin.vst */,
+				8D01CCD20486CAD60068D4B7 /* Mis-Efx.vst */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 			name = MisEfx;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = "vst 2.4 examples";
-			productReference = 8D01CCD20486CAD60068D4B7 /* mis_plungin.vst */;
+			productReference = 8D01CCD20486CAD60068D4B7 /* Mis-Efx.vst */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +193,7 @@
 					"$(SRCROOT)/../vstsdk2.4/",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mis.misefx;
-				PRODUCT_NAME = mis_plungin;
+				PRODUCT_NAME = "Mis-Efx";
 			};
 			name = Debug;
 		};
@@ -207,7 +207,7 @@
 					"$(SRCROOT)/../vstsdk2.4/",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mis.misefx;
-				PRODUCT_NAME = mis_plungin;
+				PRODUCT_NAME = "Mis-Efx";
 			};
 			name = Release;
 		};
